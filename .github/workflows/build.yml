@@ -9,8 +9,6 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
     steps:
       # Check out the project
       - uses: actions/checkout@v3
